@@ -1,0 +1,19 @@
+[project]
+name = "deepseek-ocr-examples"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.12"
+dependencies = [
+    "addict>=2.4.0",
+    "easydict>=1.13",
+    "einops>=0.8.2",
+    "img2pdf>=0.6.3",
+    "numpy>=2.4.2",
+    "pillow>=12.1.1",
+    "psutil>=7.2.2",
+    "pymupdf>=1.27.1",
+    "six>=1.17.0",
+    "tokenizers==0.20.3",
+    "transformers>=4.46.3",
+]
