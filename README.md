@@ -57,3 +57,14 @@ Tried to run locally on GEFORCE GTX 1060 6GB model but still hit gpu memory cons
   ```
   rsync -av --info=progress2 <FILES> <USERNAME>@<SERVER-IP>:<REMOTE-PATH>
   ```
+
+#### Example prompts to DeepSeek OCR
+```
+# PROMPT = '<image>\nFree OCR.'
+# document: <image>\n<|grounding|>Convert the document to markdown.
+# other image: <image>\n<|grounding|>OCR this image.
+# without layouts: <image>\nFree OCR.
+# figures in document: <image>\nParse the figure.
+# general: <image>\nDescribe this image in detail.
+# rec: <image>\nLocate <|ref|>xxxx<|/ref|> in the image.
+```
